@@ -7,7 +7,7 @@ import '../model/content_model.dart';
 
 class TopNewsServices {
   static String baseUrl =
-      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=6362168f13c74fd49249e98844bdd061";
+      "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=6362168f13c74fd49249e98844bdd061";
 
   static Future<List<Article>> getTopNewsArticle() async {
     List<Article> articleList = [];
